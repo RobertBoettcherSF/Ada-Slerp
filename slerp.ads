@@ -100,7 +100,7 @@ package Slerp is
    function Exp (Q : Quaternion) return Quaternion with
      Global => null;
 
-   function Power (Q : Quaternion; T : Real) return Real_Quaternion : Quaternion with
+   function Power (Q : Quaternion; T : Real) return Quaternion with
      Global => null,
      Pre  => Is_Normalized (Q);
 
