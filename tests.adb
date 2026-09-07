@@ -48,7 +48,6 @@ procedure Tests is
    --  Common Test Data
    Vec_X : constant Vector_3D := (1.0, 0.0, 0.0);
    Vec_Y : constant Vector_3D := (0.0, 1.0, 0.0);
-   Vec_Z : constant Vector_3D := (0.0, 0.0, 1.0);
 
    --  Identity Quaternion (0 degree rotation)
    Q_Ident : constant Quaternion := (1.0, 0.0, 0.0, 0.0);
